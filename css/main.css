@@ -1,0 +1,640 @@
+/*--- ##### NAVIGATION ##### ---*/
+
+nav .navbar-brand img{
+    height: 4.5rem;
+    margin: 1rem 0;
+}
+
+nav .fa-envelope {
+    font-size: 150%;
+}
+
+nav a.btn.btn-primary {
+    border: none;
+    border-radius: 0;
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 150%;
+    padding-left: 0.5rem;
+    margin: 0 0.125rem;
+}
+
+.bg-custom-1 {
+    background-color: #82D5FF;
+}
+
+.bg-custom-2 {
+    background-color: #59C7FF;
+}
+
+.bg-custom-3 {
+    background-color: #40A4D6;
+}
+
+.bg-custom-4 {
+    background-color: #3C97C4;
+}
+
+.bg-custom-5 {
+    background-color: #18597A;
+}
+
+/*--- ##### UNDERNAV ##### ---*/
+
+section.undernav {
+    background: url("../img/header.jpg");
+    background-size: cover;
+    height: 42rem;
+    margin: 0;
+}
+
+section.undernav div.bg-blanc {
+    background: rgba(255,255,255,0.5);
+    padding: 1.25rem 0;
+}
+
+section.undernav a.link-before {
+    font-size: 90%;
+    font-weight: bold;
+    text-shadow: 2px 3px 10px rgba(0,0,0,0.5);
+    -webkit-transition: 125ms;
+    -moz-transition: 125ms;
+    -o-transition: 125ms;
+    transition: 125ms;
+}
+
+section.undernav a.link-before:hover {
+    text-decoration: none;
+    color: #82D5FF!important;
+    border-left: 0.25rem solid #82D5FF;
+    padding-left: 0.5rem;
+    text-shadow: 1px 2px 10px rgba(0,0,0,0.5);
+    -webkit-transition: 125ms;
+    -moz-transition: 125ms;
+    -o-transition: 125ms;
+    transition: 125ms;
+}
+
+section.undernav input[type=search] {
+    border-radius: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    border: none;
+}
+
+section.undernav div.input-search {
+    position: relative;
+}
+
+section.undernav div.input-search i {
+    position: absolute;
+    padding: 0.75rem;
+    right: 0;
+    top: 0;
+    color: #6c757d;
+}
+
+section.undernav h1 {
+    color: white;
+    text-align: center;
+    font-size: 520%;
+    margin-top: 12rem;
+    text-shadow: 0.25rem 0.5rem 1rem rgba(0,0,0,1);
+    line-height: 0.85;
+}
+
+section.undernav h1 span {
+    font-size: 80%;
+}
+/*--- ##### SECTION HEADERS ##### ---*/
+
+section div.section-header {
+    color: #f0f0f0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    white-space: nowrap;
+}
+
+section div.section-header > span {
+    display: inline-flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #3C97C4;
+    padding: 0.75rem;
+    width: 12rem;
+    font-size: 175%;
+    margin-right: 2.8rem;
+}
+
+section div.section-header:after {
+    content: "";
+    height: 0.25rem;
+    background: lightgrey;
+    flex:1;
+    border-radius: 0.1rem;
+}
+
+/*--- ##### TOP NEWS ##### ---*/
+
+section.top-news {
+    margin: 0;
+    padding: 3rem 0 5rem 0;
+}
+
+section.top-news div.article-container {
+    margin-top: 2.8rem;
+}
+
+section.top-news div.image-article {
+    position: relative;
+}
+
+section.top-news div.image-article img {
+    height: 25rem;
+}
+
+section.top-news div.image-article div {
+    position: absolute;
+}
+
+section.top-news div.image-article div.date-article {
+    margin: 4.5rem 0 0 4.5rem;
+    top: 0;
+    font-weight: bold;
+    font-size: 120%;
+    color: white;
+    padding: 0.5rem 1rem;
+    background-color: #3C97C4;
+    letter-spacing: 2px;
+}
+
+section.top-news div.image-article div.title-article {
+    bottom: 0;
+    margin: 0 0 1em 4.5rem;
+    font-size: 300%;
+    width: 30%;
+    line-height: 1;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.25);
+}
+
+section.top-news div.text-article p {
+    font-size: 105%;
+    line-height: 1.6;
+}
+
+/*--- ##### PASSION ##### ---*/
+
+section.passion {
+    height: 21rem;
+    background: #000 url("../img/passion.jpg") fixed;
+    background-size: cover;
+}
+
+section.passion div.text-passion h2 {
+    display: inline-block;
+    color: white;
+    border: 0.25rem solid yellow;
+    margin: 7rem 0;
+    font-weight: 300;
+    padding-right: 1.25rem;
+    font-size: 420%;
+    letter-spacing: 2px;
+}
+
+section.passion div.text-passion h2 span {
+    display: inline-block;
+    padding: 1rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    color: #000;
+    background-color: yellow;
+    mix-blend-mode: screen;
+}
+
+/*--- ##### ACTUALITES ##### ---*/
+
+section.actus {
+    margin: 0;
+    padding: 7rem 0 4.5rem 0;
+}
+
+section.actus div.two-articles {
+    overflow: hidden;
+    margin-top: 2.8rem;
+}
+
+section.actus div.two-articles img {
+    width: 100%;
+}
+
+section.actus div.two-articles div.article > div.infos {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+section.actus div.two-articles div.article div > span {
+    background-color: rgba(0,0,0,0.3);
+    padding: 0.5rem 1.25rem 0.5rem 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+}
+
+section.actus div.two-articles div.article h4.title-article {
+    font-size: 200%;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+section.actus div.two-articles div.article div.contents {
+    min-height: 10rem;
+    border: 1px solid transparent;
+}
+
+section.actus div.two-articles div.article > a.btn {
+    border: 3px solid #3C97C4;
+    font-weight: 600;
+    color: #3C97C4;
+    padding: 0.5rem 1.4rem;
+}
+
+section.actus div.two-articles div.article > a.btn:hover {
+    background-color: #3C97C4;
+    color: #f0f0f0;
+}
+
+/*--- ##### HEXAGONS ##### ---*/
+
+section.hexagons {
+    background-color: #f0f0f0;
+    padding: 3.5rem 0;
+}
+
+section.hexagons div.grid {
+    margin-top: 3.125rem;
+}
+
+#hexGrid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: sans-serif;
+    list-style-type: none;
+}
+
+.hex {
+    position: relative;
+    visibility:hidden;
+    outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+    transition: all 0.5s;
+    backface-visibility: hidden;
+    will-change: transform;
+    transition: all 0.5s;
+}
+.hex::after{
+    content:'';
+    display:block;
+    padding-bottom: 86.602%;  /* =  100 / tan(60) * 1.5 */
+}
+.hexIn{
+    position: absolute;
+    width:96%;
+    padding-bottom: 110.851%; /* =  width / sin(60) */
+    margin: 2%;
+    overflow: hidden;
+    visibility: hidden;
+    outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+    -webkit-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+    -ms-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+    transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+    transition: all 0.5s;
+}
+.hexIn * {
+    position: absolute;
+    visibility: visible;
+    outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+}
+.hexLink {
+    display:block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #f0f0f0;
+    overflow: hidden;
+    -webkit-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+    -ms-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+    transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+}
+
+
+
+
+/*** HEX CONTENT **********************************************************************/
+.hex img {
+    left: -100%;
+    right: -100%;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.hex h1, .hex p {
+    width: 100%;
+    box-sizing:border-box;
+    font-weight: 300;
+    opacity: 0;
+}
+
+.demo1 {
+    color: #f0f0f0;
+    text-transform: uppercase;
+    text-align: center;
+    bottom: 40%;
+    padding-top:100%;
+    font-size: 1.5em;
+    z-index: 1;
+    line-height: 0.8;
+}
+
+.demo1::after {
+    content: '';
+    border-bottom: 3px solid #f0f0f0;
+    display: block;
+    margin: 1rem 2rem;
+}
+
+.demo2 {
+    top: 50%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    color: #f0f0f0;
+    letter-spacing: 3px;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.img:before, .img:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.img:before {
+    background: rgba(42, 90, 122, 0.5)
+}
+
+/*** HOVER EFFECT  **********************************************************************/
+
+
+
+.hexLink:hover h1, .hexLink:focus h1,
+.hexLink:hover p, .hexLink:focus p{
+    opacity:1;
+    transition: 0.8s;
+}
+
+
+.hexIn:hover .img:before,
+.hexIn:hover .img:after,
+.hexIn:hover .hexLink {
+    opacity: 1;
+}
+
+
+/*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
+@media (min-width:1201px) { /* <- 5-4  hexagons per row */
+    #hexGrid{
+        padding-bottom: 4.4%
+    }
+    .hex {
+        width: 20%; /* = 100 / 5 */
+    }
+    .hex:nth-child(9n+6){ /* first hexagon of even rows */
+        margin-left:10%;  /* = width of .hex / 2  to indent even rows */
+    }
+}
+
+@media (max-width: 1200px) and (min-width:901px) { /* <- 4-3  hexagons per row */
+    #hexGrid{
+        padding-bottom: 5.5%;
+        font-size: 13px;
+    }
+    .hex {
+        width: 25%; /* = 100 / 4 */
+    }
+    .hex:nth-child(7n+5){ /* first hexagon of even rows */
+        margin-left:12.5%;  /* = width of .hex / 2  to indent even rows */
+    }
+}
+
+@media (max-width: 900px) and (min-width:601px) { /* <- 3-2  hexagons per row */
+    #hexGrid{
+        padding-bottom: 7.4%;
+        font-size: 14px;
+    }
+    .hex {
+        width: 33.333%; /* = 100 / 3 */
+    }
+    .hex:nth-child(5n+4){ /* first hexagon of even rows */
+        margin-left:16.666%;  /* = width of .hex / 2  to indent even rows */
+    }
+}
+
+@media (max-width: 600px) { /* <- 2-1  hexagons per row */
+    #hexGrid{
+        padding-bottom: 11.2%;
+        font-size: 12px;
+    }
+    .hex {
+        width: 50%; /* = 100 / 3 */
+    }
+    .hex:nth-child(3n+3){ /* first hexagon of even rows */
+        margin-left:25%;  /* = width of .hex / 2  to indent even rows */
+    }
+}
+
+@media (max-width: 400px) {
+    #hexGrid {
+        font-size: 8px;
+    }
+}
+
+/*--- ##### DOCS ##### ---*/
+
+section.docs {
+    background-color: #e2e2e2;
+    padding: 3.5rem 0;
+}
+
+section.docs div.docs-header > span {
+    display: inline-flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #3C97C4;
+    padding: 0.75rem;
+    font-weight: 500;
+    margin: 0 2.8rem 1.5rem 0;
+    color: #f0f0f0;
+}
+/*--- DOCUMENTATION ---*/
+
+section.docs div.file-dl {
+    margin-bottom: 2rem;
+}
+section.docs div.file-dl a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+section.docs div.file-dl:hover a span, section.docs div.file-dl:hover a i{
+    color: #3C97C4;
+}
+
+section.docs div.file-dl i.fas {
+    float: left;
+    padding: 0 2rem 0 0;
+    font-size: 300%;
+    color: #4cd0a4;
+}
+
+section.docs div.file-dl a span {
+    display: block;
+    overflow: hidden;
+    font-size: 100%;
+    font-weight: 500;
+    color: #000;
+}
+
+/*--- NEWSLETTER ---*/
+
+section.docs div.form-group {
+    margin-bottom: 0.5rem;
+}
+
+section.docs form input {
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+section.docs form button.btn {
+    margin-top: 1rem;
+    width: 100%;
+    border: 2px solid #3C97C4;
+    color: #3C97C4;
+}
+
+section.docs form button.btn:hover {
+    color: #f0f0f0;
+    background-color: #3C97C4;
+}
+
+/*--- ##### PREFOOTER ##### ---*/
+
+section.prefooter {
+    background-color: #59C7FF;
+}
+
+section.prefooter div.col-md {
+    height: 100%;
+    padding: 2.25rem 0 2rem 0;
+    text-align: center;
+    font-size: 200%;
+    transition: 150ms;
+}
+
+section.prefooter div.col-md a {
+    border: 3px solid #f0f0f0;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: inline-block;
+    line-height: 1.9;
+    border-radius: 0.5rem;
+}
+
+section.prefooter div.col-md i {
+    color: #f0f0f0;
+}
+
+section.prefooter div.col-md:hover {
+    background-color: #40A4D6;
+    transition: 150ms;
+}
+
+/*--- ##### FOOTER ##### ---*/
+
+section.footer {
+    padding: 4rem 0 7rem 0;
+    background-color: #444;
+}
+section.footer div.col-md-3 {
+    color: #f0f0f0;
+}
+
+section.footer div.col-md-3 hr {
+    display: block;
+    width: 15%;
+    height: 3px;
+    background-color: #f0f0f0;
+    margin-top:0.5rem;
+}
+
+section.footer div.col-md-3 h2 {
+    font-size: 175%;
+}
+
+section.footer div.col-md-3 h3 {
+    font-size: 140%;
+    text-transform: uppercase;
+}
+
+section.footer div.col-md-3 a.btn {
+    width: 80%;
+    margin-top: 2.25rem;
+    border: 2px solid white;
+    color: white;
+    font-size: 120%;
+    font-weight: 500;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+section.footer div.col-md-3 a.btn:hover {
+    background: #555;
+}
+
+section.footer div.col-md-3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+section.footer div.col-md-3 ul li {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+section.footer div.col-md-3 img {
+    max-height: 6.5rem;
+}
